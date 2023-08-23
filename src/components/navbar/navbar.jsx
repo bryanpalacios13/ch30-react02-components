@@ -19,7 +19,7 @@ contenido de la lista.
 
 */
 
-export const Navbar = () => {
+const Navbar = () => {
   return (
     <>
         <h4>CH30</h4>
@@ -29,3 +29,14 @@ export const Navbar = () => {
     </>
   )
 }
+
+const Footer = () => {
+  return (
+    <>
+        <p> Derechos no reservados 2023 </p>
+        <p>Lo que esta en México pertenece al los mexicanos</p>
+    </>
+  )
+}
+
+export{Navbar, Footer};
